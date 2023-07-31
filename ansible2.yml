@@ -1,6 +1,6 @@
 ---
   - name: Playbook
-    hosts: nessus
+    hosts: all
     become: yes
     become_user: mbp
     vars_files:
