@@ -1,8 +1,5 @@
 ---
   - name: Playbook
-    hosts: webservers
-    become: yes
-    become_user: root
     vars_files:
         - apacheconf.yml
     tasks:
